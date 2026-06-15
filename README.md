@@ -31,4 +31,57 @@
 </p>
 
 <!--START_SECTION:waka-->
+**🐱 My GitHub Data** 
+
+> 📦 0 Bytes Used in GitHub's Storage 
+ > 
+> 🏆 2 Contributions in the Year 2026
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 1 Public Repository 
+ > 
+> 🔑 1 Private Repository 
+ > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌆 Daytime                1 commits           ████████████░░░░░░░░░░░░░   50.00 % 
+🌃 Evening                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌙 Night                  1 commits           ████████████░░░░░░░░░░░░░   50.00 % 
+```
+📅 **I'm Most Productive on Monday** 
+
+```text
+Monday                   1 commits           ████████████░░░░░░░░░░░░░   50.00 % 
+Tuesday                  1 commits           ████████████░░░░░░░░░░░░░   50.00 % 
+Wednesday                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Thursday                 0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Friday                   0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Saturday                 0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Sunday                   0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Shanghai
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+```
+
+```text
+
+```
+
+
+
+
+ Last Updated on 15/06/2026 08:41:08 UTC
 <!--END_SECTION:waka-->
