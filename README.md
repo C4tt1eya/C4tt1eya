@@ -15,16 +15,10 @@
   </a>
 </p>
 
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=C4tt1eya&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=C4tt1eya&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=C4tt1eya&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=C4tt1eya&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
+</p>
 
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=C4tt1eya&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" />
