@@ -8,6 +8,7 @@ on:
 jobs:
   update-readme:
     name: Update README with coding stats
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: anmol098/waka-readme-stats@v5
@@ -29,3 +30,52 @@ jobs:
           SHOW_EDITORS: "False"
           SHOW_OS: "False"
           SHOW_PROFILE_VIEWS: "False"
+
+  update-cards:
+    name: Generate profile cards
+    needs: update-readme
+    if: ${{ !failure() && !cancelled() }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Generate GitHub stats
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=C4tt1eya&show_icons=true&theme=tokyonight&hide_border=true
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+      - name: Generate top languages
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=C4tt1eya&layout=compact&langs_count=8&theme=tokyonight&hide_border=true
+          path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+      - name: Generate contribution activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@6411849745757299611a795fef822a31ca8d1d02 # v1
+        with:
+          username: C4tt1eya
+          options: theme=tokyo-night&hide_border=true&area=true
+          output_path: assets/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload generated cards
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-cards
+          path: assets/*.svg
+          if-no-files-found: error
+      - name: Commit updated cards
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/*.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Update profile cards'
+          git pull --rebase origin main
+          git push origin HEAD:main
