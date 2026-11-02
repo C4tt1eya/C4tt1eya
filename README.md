@@ -16,12 +16,12 @@
 </p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=C4tt1eya&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=C4tt1eya&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img width="48%" src="assets/stats.svg" alt="GitHub stats" />
+  <img width="48%" src="assets/top-langs.svg" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=C4tt1eya&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" />
+  <img width="100%" src="assets/activity-graph.svg" alt="Contribution activity graph" />
 </p>
 
 <!--START_SECTION:waka-->
@@ -35,13 +35,6 @@ Thursday                 1096 commits        █████░░░░░░�
 Friday                   1082 commits        █████░░░░░░░░░░░░░░░░░░░░   18.05 % 
 Saturday                 52 commits          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.87 % 
 Sunday                   83 commits          ░░░░░░░░░░░░░░░░░░░░░░░░░   01.38 % 
-```
-
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
 ```
 
 
