@@ -25,17 +25,5 @@
 </p>
 
 <!--START_SECTION:waka-->
-📅 **I'm Most Productive on Monday** 
-
-```text
-Monday                   1269 commits        █████░░░░░░░░░░░░░░░░░░░░   21.16 % 
-Tuesday                  1190 commits        █████░░░░░░░░░░░░░░░░░░░░   19.85 % 
-Wednesday                1224 commits        █████░░░░░░░░░░░░░░░░░░░░   20.41 % 
-Thursday                 1096 commits        █████░░░░░░░░░░░░░░░░░░░░   18.28 % 
-Friday                   1082 commits        █████░░░░░░░░░░░░░░░░░░░░   18.05 % 
-Saturday                 52 commits          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.87 % 
-Sunday                   83 commits          ░░░░░░░░░░░░░░░░░░░░░░░░░   01.38 % 
-```
-
 
 <!--END_SECTION:waka-->
